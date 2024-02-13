@@ -1,6 +1,7 @@
 # React App
 # This is a react-based project. First, run the server before running the react app
 # Instructions
+
 npm install;
 npm run dev # for development
 npm run build # for Production
