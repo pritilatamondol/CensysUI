@@ -1,8 +1,13 @@
-# React + Vite
+# React App
+# This is a react-based project. First, run the server before running the react app
+# Instructions
+npm install;
+npm run dev # for development
+npm run build # for Production
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Server is running on express on port 5000
+#Set the env variable first:
+export PORT=5000;
+npm start;
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
